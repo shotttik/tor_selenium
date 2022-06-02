@@ -25,8 +25,11 @@
 # ATTENTION:
 ### `You can also specify countr IP addresses if you want to you to make some changes into tor files `
 > sudo nano /etc/tor/torrc
+
 #### for example if you want to make it france add the following code in the end of torrc file, also you can use multiple countrys ip {fr,gr} ....
+
 > EntryNodes {fr} StrictNodes 1
+
 > ExitNodes {fr} StrictNodes 1  
 
 ### Make sure you you have `log` folder where your script `main.py` is located
