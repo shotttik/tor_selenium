@@ -23,7 +23,7 @@
 ### Chrome browser will be run three times to check IP addresses is changed and it really works!
 
 # ATTENTION:
-### `You can also specify countr IP addresses if you want to you to make some changes into tor files `
+### `You can also specify country IP addresses,you need make some changes into tor files `
 > sudo nano /etc/tor/torrc
 
 #### for example if you want to make it france add the following code in the end of torrc file, also you can use multiple countrys ip {fr,gr} ....
